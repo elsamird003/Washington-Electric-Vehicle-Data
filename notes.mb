@@ -1,4 +1,9 @@
- step 01 to get the program started. 
- 
- 
+ step 01 to create a virtual enviroment:
+ python -m venv myenv
+ step 02 is to activate the virtual enviroment
+
  myenv\Scripts\Activate.ps1
+
+ step 03 is to install the request:
+
+pip install requests 
