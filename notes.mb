@@ -1,4 +1,6 @@
- step 01 to get the program started. 
- 
- 
- myenv\Scripts\Activate.ps1
+Activate the local environment, then run the pipeline:
+
+myenv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python index.py
+pytest
