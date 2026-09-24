@@ -12,7 +12,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Summarize Washington EV registration counts by model."
     )
-    parser.add_argument("--input", default="asset/Data.csv", help="Path to the registration CSV")
+    parser.add_argument("--input", default="asset/export.csv", help="Path to the registration CSV")
     parser.add_argument("--top-n", type=int, default=30, help="Number of models to keep")
     parser.add_argument("--output-dir", default="outputs", help="Directory for table, chart, and metrics")
     parser.add_argument("--title", default=None, help="Chart title override")

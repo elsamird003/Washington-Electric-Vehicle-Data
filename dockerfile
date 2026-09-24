@@ -4,4 +4,4 @@ ENV MPLBACKEND=Agg
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
-CMD ["python", "index.py", "--input", "asset/Data.csv"]
+CMD ["python", "index.py", "--input", "asset/export.csv"]
